@@ -18,7 +18,7 @@ Note: Must you need php file. like .php, if your file is .html, .css that php is
 
 Now we've set last visited link on browser as a cookie
 
-##Now we'll get that url from cookie. 
+## Now we'll get that url from cookie. 
 
 ```
 if(isset($_COOKIE['last_visited_url'])){
