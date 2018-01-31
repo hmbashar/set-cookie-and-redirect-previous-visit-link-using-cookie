@@ -11,7 +11,7 @@ just using below code.
 
 
 
-    setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/');```
+    setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/'); ```
     
     
 Note: Must you need php file. like .php, if your file is .html, .css that php is not work (exmple for new user). and must using that code into header of avobe all code. example see screenshot http://prntscr.com/i7y64e
@@ -22,26 +22,21 @@ Now we've set last visited link on browser as a cookie
 
 ##Now we'll get that url from cookie. 
 
-```
-if(isset($_COOKIE['last_visited_url'])){
+```if(isset($_COOKIE['last_visited_url'])){
 		$redirect_url = $_COOKIE['last_visited_url'];		
-	}
-```
+	} 
+	```
     
     Now we've got that url, and you can redirect header() to that url 
     
-```
-header('Location: '. $redirect_url); 
-```
+```header('Location: '. $redirect_url);```
     
     full code like 
     
-```
-if(isset($_COOKIE['last_visited_url'])){
+```if(isset($_COOKIE['last_visited_url'])){
 		$redirect_url = $_COOKIE['last_visited_url']; // get link from cookie
 		header('Location: '. $redirect_url); // redirect cookie link
-	}
-```
+	}```
 	
 	
 Note: Must you need php file. like .php, if your file is .html, .css that php is not work (exmple for new user). and must using that code into header of avobe all code. example see screenshot http://prntscr.com/i7y8km
