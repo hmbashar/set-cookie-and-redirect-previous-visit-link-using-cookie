@@ -1,9 +1,9 @@
-#Set cookie and redirect previous visit link using cookie
+# Set cookie and redirect previous visit link using cookie
 
 You can set cookie on visitor/client browser then when a visitor goes offline and again come back into your website then the visitor/client auto redirect last visit link when he tries visitor home page. He/she can't visit home page auto redirect latest link. He/she can again visit the home page after clear/delete the cookie. 
 
 
-##Set Cookie
+## Set Cookie
 First you need to set link on browse as a cookie.
 just using below code.
 
@@ -65,7 +65,7 @@ http://prntscr.com/i7y9sc
 ![alt text](https://image.prntscr.com/image/rkeYFFhjTWmWKkau4dcCcQ.png)
 
 
-##Change Cookie link
+## Change Cookie link
 
 ```
 $current_location = $_SERVER['REQUEST_URI'];
