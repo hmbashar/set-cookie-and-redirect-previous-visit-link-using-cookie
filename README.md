@@ -35,7 +35,8 @@ Now we've set last visited link on browser as a cookie
 		header('Location: '. $redirect_url); // redirect cookie link
 	}```
     Note: Must you need php file. like .php, if your file is .html, .css that php is not work (exmple for new user). and must using that code into header of avobe all code. example see screenshot http://prntscr.com/i7y8km
-![alt text](https://image.prntscr.com/image/9iO1r1k9Sa6QTORtgbefgQ.png)
+ 
+ ![alt text](https://image.prntscr.com/image/9iO1r1k9Sa6QTORtgbefgQ.png)
     
 just set cookie for another page and place redirect code Which link will be redirected by visiting? like home page.
 
@@ -55,6 +56,7 @@ header('location: https://link.com'); // inpur link which link redirect after cl
 ?>```
 
 http://prntscr.com/i7y9sc
+
 ![alt text](https://image.prntscr.com/image/rkeYFFhjTWmWKkau4dcCcQ.png)
 
 
