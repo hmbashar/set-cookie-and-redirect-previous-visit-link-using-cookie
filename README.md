@@ -8,7 +8,7 @@ First you need to set link on browse as a cookie.
 just using below code.
 
 ```$exlink =  "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-    setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/');
+    setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/'); // set cookie for 30 days
 ```
     
     
@@ -19,7 +19,9 @@ Note: Must you need php file. like .php, if your file is .html, .css that php is
 Now we've set last visited link on browser as a cookie
 
 ##Now we'll get that url from cookie. 
-```if(isset($_COOKIE['last_visited_url'])){
+
+```
+if(isset($_COOKIE['last_visited_url'])){
 	$redirect_url = $_COOKIE['last_visited_url'];		
 }
 ```
