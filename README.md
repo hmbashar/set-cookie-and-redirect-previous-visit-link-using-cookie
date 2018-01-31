@@ -7,8 +7,9 @@ You can set cookie on visitor/client browser then when a visitor goes offline an
 First you need to set link on browse as a cookie.
 just using below code.
 
-```$exlink =  "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-    setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/'); // set cookie for 30 days
+```
+$exlink =  "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
+setcookie('saveexperice', $exlink, time()+(60*60*24*30), '/'); // set cookie for 30 days
 ```
     
     
